@@ -1,0 +1,86 @@
+
+header{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+h2{
+    position: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+section{
+    padding-top: 50px;
+    position: flex;
+    background-color: white;
+}
+div{
+    background-color: white;
+}
+footer{
+    background-color: white;
+}
+b1{
+    font-size: xx-large;
+    font-style: oblique;
+    background-color: white;
+}
+p{
+    background-color: white;
+}
+p2{
+    font-size: x-large;
+    background-color: white;
+}
+p3{
+    font-size: large;
+    background-color: white;
+}
+a{
+    background-color: white;
+}
+input{
+    background-color: gray;
+}
+button{
+    background-color: gray;
+}
+textarea{
+    background-color: gray;
+}
+.imagem-container{
+    width: 400px;
+    height: 300px;
+    max-width: 600px;
+    max-height: 600px;
+  
+}
+#imagem-ampliada {
+    width: 1024px ;
+    height: 640px;
+    max-width: 1024px;
+    max-height: 640px;
+    opacity: 1;
+}
+#fechar-imagem {
+    display: none;
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+}
+#sobreposicao{
+    display: none;
+    position: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    background-color: black;
+}
